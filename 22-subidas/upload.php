@@ -5,7 +5,7 @@ $nombre = $archivo['name'];
 $tipo = $archivo['type'];
 
 
-if($tipo == "image/png" ){
+if($tipo == "image/jpeg"){
       if(!is_dir('mi_imagen')){
             mkdir('mi_imagen',0777);
       }
